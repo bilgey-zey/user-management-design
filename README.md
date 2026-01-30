@@ -15,18 +15,6 @@ The system follows the principle of collecting only what is necessary for the ap
 
 Users can create an account through an API call.
 No database is used at this stage; users are stored in memory for demonstration purposes.
-### Create user
-
-**POST** `/api/users`
-
-**Request body (example):**
-```json
-{
-  "email": "user@example.com",
-  "acceptTerms": true
-}
-
-
 
 ## Behavior
 
