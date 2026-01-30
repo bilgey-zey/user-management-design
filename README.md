@@ -34,3 +34,24 @@ A user account is created only if the user has actively accepted the Terms of Se
 If acceptTerms is false, the account creation is rejected.
 
 Each user is assigned a unique system-generated user ID.
+
+## Data Privacy Policy
+
+### What data we collect
+The application collects only the minimum data required to function: an email address and a system-generated user ID. No real names, addresses, locations, or other personal details are collected.
+
+### Why we collect this data
+The email is used to uniquely identify a user account. The user ID is used internally by the system to associate data with a user.
+
+### Data limitations
+User data is stored only in memory for demonstration purposes. No database or long-term storage is used at this stage.
+
+### Data security
+As this is a prototype, advanced security measures are not implemented. However, access to user data is limited to the application logic.
+
+### User rights
+Users have the right to delete their account and all associated personal data at any time.
+
+### Consent
+User accounts can only be created if the user actively consents to the Terms of Service and this Privacy Policy.
+
