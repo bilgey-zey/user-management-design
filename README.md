@@ -55,3 +55,18 @@ Users have the right to delete their account and all associated personal data at
 ### Consent
 User accounts can only be created if the user actively consents to the Terms of Service and this Privacy Policy.
 
+## Terms of Service
+
+By using this application, users agree to the following terms.
+
+Users retain full ownership of the data they create, including checklists and items. The service does not claim ownership of user-generated content.
+
+By creating an account, users grant the service a limited right to store, process, and display their data solely for the purpose of providing the application’s functionality.
+
+The service may modify or remove data if required for technical or maintenance reasons, but will not use user data for purposes outside the scope of the application.
+
+Users may withdraw their consent at any time by deleting their account. Upon account deletion, all personal data associated with the user will be removed, while public or shared contributions may remain anonymized.
+
+Continued use of the application constitutes acceptance of these terms.
+
+
