@@ -10,3 +10,20 @@ The application collects only the minimum amount of data required to identify a 
 ### Data minimization
 No personal data such as real name, address, age, or location is collected.
 The system follows the principle of collecting only what is necessary for the application to function.
+
+## User Account Creation
+
+Users can create an account through an API call.
+No database is used at this stage; users are stored in memory for demonstration purposes.
+
+### Create user
+
+**POST** `/api/users`
+
+**Request body (example):**
+```json
+{
+  "email": "user@example.com",
+  "acceptTerms": true
+}
+
