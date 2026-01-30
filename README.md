@@ -16,6 +16,17 @@ The system follows the principle of collecting only what is necessary for the ap
 Users can create an account through an API call.
 No database is used at this stage; users are stored in memory for demonstration purposes.
 
+### Create user
+
+**POST** `/api/users`
+
+**Request body (example):**
+```json
+{
+  "email": "user@example.com",
+  "acceptTerms": true
+}
+
 
 
 ## Behavior
@@ -69,17 +80,6 @@ Users can delete their account through an API call.
 - Public or shared contributions created by the user remain in the system but are anonymized.
 - Deleting an account also withdraws the user’s consent to the Terms of Service and Privacy Policy.
 
-
-### Create user
-
-**POST** `/api/users`
-
-**Request body (example):**
-```json
-{
-  "email": "user@example.com",
-  "acceptTerms": true
-}
 
 
 
