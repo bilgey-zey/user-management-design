@@ -29,11 +29,9 @@ No database is used at this stage; users are stored in memory for demonstration 
 
 ## Behavior
 
-A user account is created only if the user has actively accepted the Terms of Service.
-
-If acceptTerms is false, the account creation is rejected.
-
-Each user is assigned a unique system-generated user ID.
+-A user account is created only if the user has actively accepted the Terms of Service.
+-If acceptTerms is false, the account creation is rejected.
+-Each user is assigned a unique system-generated user ID.
 
 ## Data Privacy Policy
 
@@ -68,5 +66,16 @@ The service may modify or remove data if required for technical or maintenance r
 Users may withdraw their consent at any time by deleting their account. Upon account deletion, all personal data associated with the user will be removed, while public or shared contributions may remain anonymized.
 
 Continued use of the application constitutes acceptance of these terms.
+
+## Account Deletion
+
+Users can delete their account through an API call.
+
+**DELETE** `/api/users/{id}`
+
+### Behavior
+- All personal data associated with the user is removed.
+- Public or shared contributions created by the user remain in the system but are anonymized.
+- Deleting an account also withdraws the user’s consent to the Terms of Service and Privacy Policy.
 
 
