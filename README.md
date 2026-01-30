@@ -16,6 +16,62 @@ The system follows the principle of collecting only what is necessary for the ap
 Users can create an account through an API call.
 No database is used at this stage; users are stored in memory for demonstration purposes.
 
+
+## Behavior
+
+-A user account is created only if the user has actively accepted the Terms of Service.
+-If acceptTerms is false, the account creation is rejected.
+-Each user is assigned a unique system-generated user ID.
+
+## Data Privacy Policy
+
+### What data we collect
+The application collects only the minimum data required to function: an email address and a system-generated user ID. No real names, addresses, locations, or other personal details are collected.
+
+### Why we collect this data
+The email is used to uniquely identify a user account. The user ID is used internally by the system to associate data with a user.
+
+### Data limitations
+User data is stored only in memory for demonstration purposes. No database or long-term storage is used at this stage.
+
+### Data security
+As this is a prototype, advanced security measures are not implemented. However, access to user data is limited to the application logic.
+
+### User rights
+Users have the right to delete their account and all associated personal data at any time.
+
+### Consent
+User accounts can only be created if the user actively consents to the Terms of Service and this Privacy Policy.
+
+## Terms of Service
+
+By using this application, users agree to the following terms.
+
+Users retain full ownership of the data they create, including checklists and items. The service does not claim ownership of user-generated content.
+
+By creating an account, users grant the service a limited right to store, process, and display their data solely for the purpose of providing the application’s functionality.
+
+The service may modify or remove data if required for technical or maintenance reasons, but will not use user data for purposes outside the scope of the application.
+
+Users may withdraw their consent at any time by deleting their account. Upon account deletion, all personal data associated with the user will be removed, while public or shared contributions may remain anonymized.
+
+Continued use of the application constitutes acceptance of these terms.
+
+## Account Deletion
+
+Users can delete their account through an API call.
+
+**DELETE** `/api/users/{id}`
+
+### Behavior
+- All personal data associated with the user is removed.
+- Public or shared contributions created by the user remain in the system but are anonymized.
+- Deleting an account also withdraws the user’s consent to the Terms of Service and Privacy Policy.
+
+
+
+
+
 ### Create user
 
 **POST** `/api/users`
