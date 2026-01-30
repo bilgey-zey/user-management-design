@@ -25,9 +25,9 @@ No database is used at this stage; users are stored in memory for demonstration 
 {
   "email": "user@example.com",
   "acceptTerms": true
-}
 
-Behavior
+
+## Behavior
 
 -A user account is created only if the user has actively accepted the Terms of Service.
 -If acceptTerms is false, the account creation is rejected.
